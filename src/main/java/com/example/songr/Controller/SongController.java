@@ -1,11 +1,14 @@
-package com.example.songr;
+package com.example.songr.Controller;
 
 
+import com.example.songr.Model.Album;
+import com.example.songr.AlbumRepository;
+import com.example.songr.Model.Song;
+import com.example.songr.SongRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.view.RedirectView;
 
