@@ -1,4 +1,5 @@
 # Songr
+# Readme
 Simple webapp using sprint boot
 
 ## to run the App:
@@ -8,3 +9,4 @@ Simple webapp using sprint boot
 - run the SongrApplication class
 - open your browser
 - go to http://localhost:8080
+
